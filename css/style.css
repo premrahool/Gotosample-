@@ -1,0 +1,124 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+body {font-family: 'Montserrat', sans-serif;color:#000;font-size: 16px;}
+.barlowFont {font-family: 'Barlow', sans-serif;}
+
+/* Common */
+.mybtn { background-color: #ef4e23; color: white; padding: 7px 20px;}     
+.mybtn:hover { background-color: #005499; color: white;box-shadow: 1px 1px 10px 0px #9e9e9e;} 
+.heading {color: #000;font-size: 70px;font-weight: 700;} 
+.dttedline {color: #ef4e23;} 
+.paraText {font-family: 'Barlow', sans-serif;color: #5f5f5d;font-weight: 600;font-size: 18px;}   
+
+/* Header */
+.mainHeader {background-color: #fff;box-shadow: 1px 1px 5px 0px #e0e0e0;position: sticky;top: 0;z-index: 99;}
+.mainHeader .navbar-light .navbar-nav .active>.nav-link {color: rgb(255, 98, 0);}
+.mainlogo{height: 50px;}
+.mainHeader .navbar-light .navbar-nav .nav-link { color: #000000;margin: 0 8px;font-weight: 600;}
+
+/* Hero Banner */
+.herobnrbg{background-color: #f5f5f5;padding-top: 50px;padding-bottom: 50px;}
+.herobnrbg .mybtn{padding: 10px 50px;}
+.herobnrbg .herobgimg{background-image: url("../images/banner_bg.png");background-repeat: no-repeat;background-position: top center;}
+
+/* Who We Are */
+.whoweare{padding-top: 50px;padding-bottom: 50px;}
+.whowerimg{height: 400px;}
+
+/* Why GotoSample */
+.whygts{padding-top: 50px;padding-bottom: 50px;background-color: #f5f5f5;}
+.whygtsimg{height: 330px;float: right;}
+
+/* Why GotoSample */
+.whyicon{height: 90px;}
+.whypara{text-align: center;font-weight: 600;line-height: 30px;font-size: 20px;margin-top: 40px;}
+.whygtssection{background-color: white;box-shadow: 1px 1px 10px #ddd;border-radius: 10px;padding: 50px 60px;text-align:center;}
+
+/* How It Works */
+.howsectionwrap{padding-top: 50px;padding-bottom: 50px;}
+.howgtstext{text-align: center;}
+.borderright{border-right: 2px solid #ddd;}
+.howbgbgwrap{text-align: center;padding: 20px 12px;box-shadow: 2px 1px 9px #e2e2e2;border-radius: 11px;}
+.howbgimg1{background-image: url(../images/img1.png);}
+.howbgimg2{background-image: url(../images/img2.png);}
+.howbgimg3{background-image: url(../images/img3.png);}
+.howbgimg4{background-image: url(../images/img4.png);}
+.howicon{height: 65px;margin-bottom: 20px;}
+.howpara{font-weight: 500;line-height: 25px;font-size: 16px;margin-top: 8px;margin-bottom: 0;min-height: 150px;}
+.howheading{font-size: 24px;font-weight: 600;color: #003968;}
+.howcardwrap{padding-top: 50px;}
+
+/* Offer & Gift Rewards */
+.offerbgimg{background-image: url(../images/reward.svg);background-repeat: no-repeat;background-position: center right;
+    background-color: #f5f5f5;padding-top: 50px;padding-bottom: 50px;}
+
+/* Footer */
+.footerwrap{padding-top: 50px;padding-bottom: 5px;}
+.footerwrap .mainlogo{margin-bottom: 30px;}
+.footerwrap h3{font-size: 20px;font-weight: 600;}
+.footerwrap ul{list-style-type: none;padding: 0;}
+.footerwrap ul li{padding-top: 10px;}
+.footerwrap ul a{color: #000;}
+.socialicons{margin-top: 25px;}
+.socialicons a{margin-right: 10px;font-size: 16px;color: #000;border: 1px solid #000;border-radius: 30px;padding: 6px 9px;}
+.socialicons a.fb{padding: 6px 11px;}
+.socialicons a:hover{background-color: #005499;color: white;border-color: #005499;}
+.socialicons a i{transition: all linear .2s;}
+.socialicons a:hover i{transform: rotate(360deg);}
+/* .socialicons a i {transition: all linear .3s;}
+.socialicons a:hover i {transform: rotate(360deg);transition: all linear .2s;} */
+
+
+
+/* / ---------- Media ---------- / */
+/* ##Device = Desktops, ##Screen = 1281px to higher resolution desktops */
+@media (min-width:1281px) {
+}
+/* / ##Device = Laptops, Desktops, ##Screen = B/w 1025px to 1280px / */
+@media (min-width:1025px) and (max-width:1280px) {
+}
+/* / ##Device = Tablets, Ipads (portrait), ##Screen = B/w 768px to 1024px / */
+@media (min-width:768px) and (max-width:1024px) {
+    .heading{font-size: 40px;}
+    .herobnrbg{padding-top: 20px;}
+    .whowerimg{height: auto;}
+    .whygtsimg{height: auto;}
+    .whygtssection{padding: 30px 10px;}
+    .howbgbgwrap{margin-bottom: 30px;}
+    .offerbgimg{background-image: none;}
+    .footerwrap .mainlogo{margin-bottom: 0;}
+    .whypara{margin-top: 20px;margin-bottom:40px;}
+    .herobnrbg .herobgimg{background-position: top left;}
+    .offercard{margin-left: 0.333333%;margin-top: 34px;}
+
+}
+/* / ##Device = Tablets, Ipads (landscape), ##Screen = B/w 768px to 1024px / */
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+    
+}
+/* / ##Device = Low Resolution Tablets, Mobiles (Landscape), ##Screen = B/w 481px to 767px / */
+@media (min-width:481px) and (max-width:767px) {
+
+}
+/* / ##Device = Most of the Smartphones Mobiles (Portrait), ##Screen = B/w 320px to 479px / */
+@media (min-width:320px) and (max-width:480px) {
+    .heading{font-size: 40px;}
+    .herobnrbg{padding-top: 20px;}
+    .whowerimg{height: auto;}
+    .whygtsimg{height: auto;}
+    .whygtssection{padding: 30px 10px;}
+    .howbgbgwrap{margin-bottom: 30px;}
+    .offerbgimg{background-image: none;}
+    .footerwrap{text-align: center;}
+    .footerwrap .mainlogo{margin-bottom: 0;}
+    .whypara{margin-top: 20px;margin-bottom:40px;}
+    .herobnrbg .herobgimg{background-position: top left;}
+    .offercard{text-align: center;}
+}
+
+
+
+
